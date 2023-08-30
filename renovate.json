@@ -1,6 +1,24 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base"
+    "config:recommended"
+  ],
+  "labels": [
+    "Renovate Bot"
+  ],
+  "rangeStrategy": "replace",
+  "lockFileMaintenance": {
+    "enabled": true
+  },
+  "packageRules": [
+    {
+      "groupName": "Auth service",
+      "matchFileNames": [
+        "authorization-server/**"
+      ],
+      "labels": [
+        "autorization service"
+      ]
+    }
   ]
 }
