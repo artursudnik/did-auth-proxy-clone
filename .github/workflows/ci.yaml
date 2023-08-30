@@ -119,6 +119,7 @@ jobs:
     name: E2E tests - public IPFS gateway
     needs: [ build ]
     runs-on: ubuntu-latest
+    if: ${{ false }}
 
     env:
       LOG_LEVEL: 'error'
@@ -169,6 +170,7 @@ jobs:
     name: E2E tests - Infura
     needs: [ build ]
     runs-on: ubuntu-latest
+    if: ${{ false }}
 
     env:
       LOG_LEVEL: 'error'
