@@ -7,7 +7,7 @@ import { AxiosExceptionFilter } from './exception-filters/axios-exception-filter
 import { Logger, LoggerErrorInterceptor, PinoLogger } from 'nestjs-pino';
 import { setupSwagger } from './setup-swagger.function';
 import { setupCors } from './setup-cors.function';
-
+//
 console.log(`${new Date().toISOString()} process starting`);
 
 async function bootstrap() {
