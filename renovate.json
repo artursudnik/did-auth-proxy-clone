@@ -9,16 +9,5 @@
   "rangeStrategy": "pin",
   "lockFileMaintenance": {
     "enabled": true
-  },
-  "packageRules": [
-    {
-      "groupName": "Auth service",
-      "matchFileNames": [
-        "authorization-server/**"
-      ],
-      "labels": [
-        "autorization service"
-      ]
-    }
-  ]
+  }
 }
