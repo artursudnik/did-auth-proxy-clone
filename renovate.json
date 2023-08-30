@@ -6,7 +6,7 @@
   "labels": [
     "Renovate Bot"
   ],
-  "rangeStrategy": "replace",
+  "rangeStrategy": "pin",
   "lockFileMaintenance": {
     "enabled": true
   },
