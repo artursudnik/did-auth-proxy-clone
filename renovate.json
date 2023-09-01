@@ -6,6 +6,7 @@
   "labels": [
     "Renovate Bot"
   ],
+  "prHourlyLimit": 30,
   "rangeStrategy": "pin",
   "lockFileMaintenance": {
     "enabled": true
