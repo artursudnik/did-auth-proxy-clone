@@ -19,11 +19,16 @@
       "enabled": false
     },
     {
+      "matchDatasources": [
+        "docker"
+      ],
+      "pinDigests": true
+    },
+    {
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
-      "pinDigests": true,
       "matchUpdateTypes": [
         "major"
       ]
