@@ -17,6 +17,16 @@
         "engines"
       ],
       "enabled": false
+    },
+    {
+      "enabled": false,
+      "matchDatasources": [
+        "docker"
+      ],
+      "pinDigests": true,
+      "matchUpdateTypes": [
+        "major"
+      ]
     }
   ]
 }
