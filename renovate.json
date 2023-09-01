@@ -1,0 +1,32 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended"
+  ],
+  "labels": [
+    "Renovate Bot"
+  ],
+  "prHourlyLimit": 30,
+  "rangeStrategy": "pin",
+  "lockFileMaintenance": {
+    "enabled": true
+  },
+  "packageRules": [
+    {
+      "matchDepTypes": [
+        "engines"
+      ],
+      "enabled": false
+    },
+    {
+      "enabled": false,
+      "matchDatasources": [
+        "docker"
+      ],
+      "pinDigests": true,
+      "matchUpdateTypes": [
+        "major"
+      ]
+    }
+  ]
+}
