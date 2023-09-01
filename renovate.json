@@ -9,5 +9,13 @@
   "rangeStrategy": "pin",
   "lockFileMaintenance": {
     "enabled": true
-  }
+  },
+  "packageRules": [
+    {
+      "matchDepTypes": [
+        "engines"
+      ],
+      "enabled": false
+    }
+  ]
 }
