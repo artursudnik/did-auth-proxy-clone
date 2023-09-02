@@ -32,6 +32,12 @@
       "matchUpdateTypes": [
         "major"
       ]
+    },
+    {
+      "managers": [
+        "docker-compose"
+      ],
+      "enabled": false
     }
   ]
 }
