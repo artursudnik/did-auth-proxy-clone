@@ -26,7 +26,7 @@ services:
       dev-backend:
 
   redis:
-    image: bitnami/redis:latest
+    image: bitnami/redis:latest@sha256:25d8a8efc85d38b03e0ad6b8e565bfe529867e2a12c088a6b6f70535d713d8fb
     restart: unless-stopped
     ports:
       - '127.0.0.1:6379:6379'
@@ -38,7 +38,7 @@ services:
       - dev-redis-data:/bitnami/redis/data
 
   redis-commander:
-    image: rediscommander/redis-commander:latest
+    image: rediscommander/redis-commander:latest@sha256:19cd0c49f418779fa2822a0496c5e6516d0c792effc39ed20089e6268477e40a
     restart: unless-stopped
     ports:
       - "127.0.0.1:8081:8081"
