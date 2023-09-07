@@ -11,6 +11,7 @@
   "lockFileMaintenance": {
     "enabled": true
   },
+  "automerge": true,
   "packageRules": [
     {
       "matchDepTypes": [
@@ -22,7 +23,8 @@
       "matchDatasources": [
         "docker"
       ],
-      "pinDigests": true
+      "pinDigests": true,
+      "automerge": false
     },
     {
       "enabled": false,
