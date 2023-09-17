@@ -6,6 +6,8 @@
   "labels": [
     "Renovate Bot"
   ],
+  "timezone": "Europe/Warsaw",
+  "schedule": ["before 9:00AM every saturday"],
   "prHourlyLimit": 30,
   "rangeStrategy": "pin",
   "lockFileMaintenance": {
