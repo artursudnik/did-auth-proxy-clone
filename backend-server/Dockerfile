@@ -1,4 +1,4 @@
-FROM node:18.17.1-alpine@sha256:3482a20c97e401b56ac50ba8920cc7b5b2022bfc6aa7d4e4c231755770cf892f as base
+FROM node:18.18.0-alpine@sha256:a315556d82ef54561e54fca7d8ee333382de183d4e56841dcefcd05b55310f46 as base
 WORKDIR /app
 
 FROM base as dependencies
