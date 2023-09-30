@@ -2351,10 +2351,10 @@
     "@types/mime" "*"
     "@types/node" "*"
 
-"@types/set-cookie-parser@2.4.3":
-  version "2.4.3"
-  resolved "https://registry.yarnpkg.com/@types/set-cookie-parser/-/set-cookie-parser-2.4.3.tgz#963a7437ed026c6adec2a71478ed6e3df2837160"
-  integrity sha512-7QhnH7bi+6KAhBB+Auejz1uV9DHiopZqu7LfR/5gZZTkejJV5nYeZZpgfFoE0N8aDsXuiYpfKyfyMatCwQhyTQ==
+"@types/set-cookie-parser@2.4.4":
+  version "2.4.4"
+  resolved "https://registry.yarnpkg.com/@types/set-cookie-parser/-/set-cookie-parser-2.4.4.tgz#3c36c9147960cca0fc7c508aacb18ea41f6b5003"
+  integrity sha512-xCfTC/eL/GmvMC24b42qJpYSTdCIBwWcfskDF80ztXtnU6pKXyvuZP2EConb2K9ps0s7gMhCa0P1foy7wiItMA==
   dependencies:
     "@types/node" "*"
 
