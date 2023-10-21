@@ -76,7 +76,7 @@
     "@types/node": "18.18.6",
     "@types/passport-jwt": "3.0.11",
     "@types/passport-local": "1.0.37",
-    "@types/set-cookie-parser": "2.4.4",
+    "@types/set-cookie-parser": "2.4.5",
     "@types/supertest": "2.0.14",
     "@typescript-eslint/eslint-plugin": "6.7.5",
     "@typescript-eslint/parser": "6.7.5",
