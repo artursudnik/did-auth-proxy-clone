@@ -1,4 +1,4 @@
-FROM bitnami/nginx:1.25.2@sha256:fbd9335f55d83d8aaf9ab1a539b0f2a87b444e8c54f34c9a1ca9d7df15605db4
+FROM bitnami/nginx:1.25.3@sha256:aa8f648e3d01071eefac3e211a0bdc7c575711f1e13e95ec4ffc73f394d14912
 
 EXPOSE 80
 
