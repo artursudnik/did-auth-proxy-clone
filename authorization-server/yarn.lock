@@ -9321,10 +9321,10 @@ redis-errors@^1.0.0, redis-errors@^1.2.0:
   resolved "https://registry.yarnpkg.com/redis-errors/-/redis-errors-1.2.0.tgz#eb62d2adb15e4eaf4610c04afe1529384250abad"
   integrity sha512-1qny3OExCf0UvUV/5wpYKf2YwPcOqXzkwKKSmKHiE6ZMQs5heeE/c8eXK+PNllPvmjgAbfnsbpkGZWy8cBpn9w==
 
-redis-memory-server@0.9.0:
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/redis-memory-server/-/redis-memory-server-0.9.0.tgz#cdefc4ff29adf8ec11ab92aa7bc7896cf87899fb"
-  integrity sha512-MGfAQfy+D51bC/zb5tXYwXnsdgf4aaJEuj1y1RTPdW2ffJS6kKIIwjl6dLWZhlaLYJbzxfJLuB18PYMo6lqRFQ==
+redis-memory-server@0.10.0:
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/redis-memory-server/-/redis-memory-server-0.10.0.tgz#5e71f53ba4edbc874437c8a7e7a541617384a80c"
+  integrity sha512-D0CFfUzAOQv/64iYzRqxUs4MEV2LlaW227qDvuuiq2FR4FXLrxyfENFf7dj6v4IwGTcNSLxhDlNKQthYVncg3Q==
   dependencies:
     camelcase "^6.3.0"
     cross-spawn "^7.0.3"
