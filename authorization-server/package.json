@@ -74,7 +74,7 @@
     "@types/jest": "29.5.11",
     "@types/joi": "17.2.3",
     "@types/node": "18.19.4",
-    "@types/passport-jwt": "3.0.13",
+    "@types/passport-jwt": "4.0.0",
     "@types/passport-local": "1.0.38",
     "@types/set-cookie-parser": "2.4.7",
     "@types/supertest": "6.0.2",
